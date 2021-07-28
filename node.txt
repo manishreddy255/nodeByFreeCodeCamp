@@ -1,0 +1,25 @@
+This is about node
+It is a server development environment 
+It is based on v8 engine which is based on javascript
+
+so in node we have modules 
+every file is a module
+
+so we have a object called "module"
+in that we have "exports" and that is used to send data across files
+That exported data is imported into a module using "require"
+
+and use it in the app
+
+And how we import is, "when we require the file the file gets executed and if somthing
+is imported it is placed in exports"
+
+
+And there are many modules in node which are inbuilt
+
+that is 
+*os
+*path
+*file system
+*http 
+

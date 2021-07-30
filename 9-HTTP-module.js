@@ -38,3 +38,31 @@ server.listen(5000);
 // res.end() => ends the response
 
 // and check up for other options
+
+// creation of server
+
+// const http = require("http");
+
+// const server = http.createServer((req, res) => {
+//   if (req.url === "/") {
+//     res.end("Home Page");
+//   }
+
+//   if (req.url === "/about") {
+//     // if we write a blocking code all the users who wants
+//     // to use the system are blocked until the blocking code is executed
+//     // and thats a problem which should be avoided
+//     // so we should try to write non-blocking code everytime
+//     // BLOCKING CODE
+//     // for (let i = 0; i < 1000; i++) {
+//     //   for (let j = 0; j < 1000; j++) {
+//     //     console.log(`${i} ${j}`);
+//     //   }
+//     // }
+//     res.end("about Page");
+//   }
+// });
+
+// server.listen("5000", () => {
+//   console.log("server is listening on port 5000");
+// });
